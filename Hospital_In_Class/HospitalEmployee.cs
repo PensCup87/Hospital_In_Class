@@ -33,6 +33,11 @@ namespace Hospital_In_Class
             this.employeeName = employeeName;
             this.employeeNumber = employeeNumber;
         }
+
+        public virtual void GetInfo()
+        {
+            Console.Write("Employee Name " + employeeName + " " + employeeNumber);
+        }
             
     }
 }

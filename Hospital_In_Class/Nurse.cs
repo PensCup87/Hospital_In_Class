@@ -26,9 +26,12 @@ namespace Hospital_In_Class
 
         }
 
-        public Nurse(string employeeNumber1, int employeeNumber, string department2, int numberOfPatients)
+        public Nurse(string employeeName, int employeeNumber, string department, int numberOfPatients)
         {
-            this.EmployeeNumber = employeeNumber;
+            this.employeeName = employeeName;
+            this.employeeNumber = employeeNumber;
+            this.department = department;
+            this.numberOfPatients = numberOfPatients;
 
         }
 

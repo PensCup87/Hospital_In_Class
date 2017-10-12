@@ -26,5 +26,11 @@ namespace Hospital_In_Class
             this.specialtyArea = specialtyArea;
         }
 
+        public override void GetInfo()
+        {
+            base.GetInfo();
+            Console.WriteLine(specialtyArea);
+        }
+
     }
 }
