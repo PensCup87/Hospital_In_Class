@@ -8,5 +8,14 @@ namespace Hospital_In_Class
 {
     class Receptionist : HospitalEmployee
     {
+        private string department;
+
+        public string Department
+        {
+            get { return this.department; }
+        }
+
+
+
     }
 }
