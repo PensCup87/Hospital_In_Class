@@ -34,9 +34,9 @@ namespace Hospital_In_Class
             this.employeeNumber = employeeNumber;
         }
 
-        public virtual void GetInfo()
+        public virtual string GetInfo()
         {
-            Console.Write("Employee Name " + employeeName + " " + employeeNumber);
+            return "Employee Name: " + employeeName + " - " + employeeNumber;
         }
             
     }

@@ -35,6 +35,12 @@ namespace Hospital_In_Class
         }
 
 
+        public override string GetInfo()
+        {
+            return "Employee name: " + employeeName + " - " + "Employee Number: " + employeeNumber + " - " + "Department: " + department + "Using the phone: " + onPhone;
+        }
+
+
 
     }
 }

@@ -29,10 +29,9 @@ namespace Hospital_In_Class
             this.specialtyArea = specialtyArea;
         }
 
-        public override void GetInfo()
+        public override string GetInfo()
         {
-            base.GetInfo();
-            Console.WriteLine();
+            return "Employee name: " + employeeName + " - " + "Employee Number: " + employeeNumber + " - " + "Specialty Area: " + specialtyArea + "Operating Today? " + operating;
         }
 
     }

@@ -16,6 +16,23 @@ namespace Hospital_In_Class
             Nurse nurse1 = new Nurse("Robin", 267, "Break Room", 1);
             Receptionist rec1 = new Receptionist("Crazy Alice", 4, "Smoker's Lounge", true);
 
+            Console.WriteLine("Asylum 49 Employees:");
+            Console.WriteLine(employee1.GetInfo());
+            Console.WriteLine();
+            Console.WriteLine(doc1.GetInfo());
+            Console.WriteLine();
+            Console.WriteLine(cutter.GetInfo());
+            Console.WriteLine();
+            Console.WriteLine(nurse1.GetInfo());
+            Console.WriteLine();
+            Console.WriteLine(rec1.GetInfo());
+
+
+
+
+
+
+
             ////adding user input
             //Console.WriteLine("aSk USer");
             //string userAnswer = Console.ReadLine();
